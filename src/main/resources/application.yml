@@ -1,9 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://host.docker.internal:5432/users
-#    url: jdbc:postgresql://localhost:4678/users
-    username:
-    password: 
+    url: jdbc:postgresql://localhost:5432/users
+    username: postgres
+    password: 6441
   jpa:
     hibernate:
       ddl-auto: update
@@ -14,8 +13,8 @@ spring:
     show-sql: true
   mail:
     host: smtp.gmail.com
-    username:
-    password:
+    username: niranjanthapa6441@gmail.com
+    password: 9818_S@inik6441_22
     port: 587
     properties:
       mail:
@@ -29,3 +28,5 @@ spring:
           timeout: 3000
           writetimeout: 5000
     debug: true
+server:
+  port: 8090
